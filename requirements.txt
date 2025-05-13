@@ -1,0 +1,7 @@
+Flask
+transformers
+torch
+sumy
+spacy
+PyMuPDF
+Pillow

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abstractive Summarization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>TASK 1</h1>
+        <h1>ABSTRACTIVE SUMMARIZATION TOOL</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <textarea name="input_text" rows="10" placeholder="Paste your text here for summarization.........!!!" style="margin-right: 20px;width: 800px; border-radius: 20PX;"></textarea>
+            <p style="text-align: center;">------ or ------</p>
+            <input type="file" name="file" accept=".txt,.pdf"><br><br>
+            <button type="submit" style="border-radius: 20PX;">Summarize</button>
+        </form>
+
+        {% if summary %}
+            <div class="output">
+                <h2>Summary</h2>
+                <p>{{ summary }}</p>
+                <h3>Main Points</h3>
+                <ul style="text-align: left;">
+                    {% for point in keypoints %}
+                        <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+
+                <h3 style="padding: 20px;">Image Generation</h3> 
+                <p>Can not generate the perfect image on the input data</p>
+            </div>
+        {% endif %}
+
+       
+    </div>
+</body>
+</html>
