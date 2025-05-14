@@ -1,3 +1,6 @@
+"""This script provides a function to generate an abstractive summary of a 
+ given text using the Hugging Face Transformers library."""
+
 from transformers import pipeline
 
 # Creating a summarization pipeline using transformers (PyTorch framework)
