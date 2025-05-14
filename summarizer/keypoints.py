@@ -1,3 +1,5 @@
+"""This script extracts key points from a given text using spaCy """
+
 import spacy
 
 # Loading the English language model from spaCy
