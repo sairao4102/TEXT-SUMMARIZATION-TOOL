@@ -2,7 +2,7 @@
 
 **COMPANY**: CODTECH IT SOLUTIONS
 
-**NAME**: Kiransai Arepelli
+**NAME**: KIRANSAI AREPELLI
 
 **INTERN ID**: C0DF51
 
