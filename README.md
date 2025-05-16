@@ -1,5 +1,17 @@
 # Text Summarization Tool
 
+**COMPANY**: CODTECH IT SOLUTIONS
+
+**NAME**: Kiransai Arepelli
+
+**INTERN ID**: C0DF51
+
+**DOMAIN**: Artificial Intelligence Markup Language
+
+**DURATION**: 4 WEEKS
+
+**MENTOR**: NEELA SANTOSH KUMAR
+
 ## Description
 A web-based tool to summarize large text inputs using abstractive summarization and extract key points.  It leverages advanced Natural Language Processing (NLP) techniques to make long texts more digestible and easily understandable.
 
