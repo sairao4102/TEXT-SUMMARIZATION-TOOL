@@ -41,7 +41,7 @@ If enabled, the app can generate an image related to the content using online AP
 ### 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/sairao4102/SPEECH-TRANSCRIPTION-TOOL.git]
+git clone [https://github.com/sairao4102/TEXT-SUMMARIZATION-TOOL.git]
 cd GPT-TEXT-GENERATOR-TOOL
 ```
 
