@@ -20,19 +20,14 @@ A web-based tool to summarize large text inputs using abstractive summarization 
 ## How It Works:
 - **User Input**:
 Users can either upload a .txt or .pdf file or directly paste large blocks of text into the input field on the website.
-
 - **Text Processing**:
 The input text is processed by the backend. If it's a long document, it is split into manageable chunks to ensure the summarization model handles it efficiently.
-
 - **Abstractive Summarization**:
 Each chunk of text is passed through a pre-trained transformer model (e.g., T5, BART) using the Hugging Face transformers library. The model generates a concise, human-like summary.
-
 - **Key Point Extraction**:
 Using spaCy, the summarized text is further analyzed to extract essential key points. Only meaningful and informative phrases are selected — not just individual words or short noun chunks.
-
 - **Output Display**:
 The summarized content and key points are displayed on the webpage for the user to review.
-
 - **Optional Image Generation**:
 If enabled, the app can generate an image related to the content using online APIs, based on detected keywords (like places, people, or topics).
 
